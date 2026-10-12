@@ -1,7 +1,7 @@
 name: Validate files
 on: push
 jobs:
-  validate-files:
+  validate-file:
     runs-on: ubuntu-latest
     steps: 
       - name: get-repo-code

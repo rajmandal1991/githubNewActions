@@ -6,10 +6,8 @@ jobs:
     steps:
       - name: get-repo-code
         uses: actions/checkout@v4
-
       - name: validate html files
         run: test -f index.html
-
       
   validate-js:
     runs-on: ubuntu-latest

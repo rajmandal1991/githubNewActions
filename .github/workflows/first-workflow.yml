@@ -8,3 +8,5 @@ jobs:
        run: echo "Hello this is fist workflow" 
      - name: By Github Action
        run: echo "By Github action"
+     - name: fail job intentionally
+       run: exit 1
